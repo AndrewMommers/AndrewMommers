@@ -5,4 +5,4 @@ I'm Andrew from Australia, and I do content on design and development. I really 
 
 ## Github Stats
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=AndrewMommers&show_icons=true&theme=github_dark)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)

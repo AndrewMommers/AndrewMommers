@@ -1,5 +1,5 @@
 ### Hi there 👋, my name is Andrew Mommers
-![](https://pbs.twimg.com/profile_banners/1153474360008572928/1615435510/600x200)
+<img src="https://raw.githubusercontent.com/sagar-viradiya/sagar-viradiya/master/resources/banner.png" alt="Hello world">
 
 I'm Andrew from Australia, and I do content on design and development. I really enjoy Volleyball, I also enjoy ui, ux, and design in general.
 

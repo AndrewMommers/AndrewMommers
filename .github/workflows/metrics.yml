@@ -1,0 +1,43 @@
+name: Metrics
+on:
+  schedule: [{ cron: "0 */12 * * *" }]
+  workflow_dispatch:
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Replace with your GH token (classic, read-only public_repo is fine)
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: AndrewMommers
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: "Australia/Sydney"
+
+          # Brand look
+          config_display: large
+          config_padding: 16, 24
+          config_animations: yes
+          plugin_achievements: yes
+
+          # Plugins (toggle to taste)
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+          # Colors (match README palette)
+          color_background: "0B1221"
+          color_border: "7C3AED"
+          color_text: "E6F2FF"
+          color_main: "00E5FF"
+          color_primary: "39FF14"
+
+          # Output
+          filename: metrics.svg

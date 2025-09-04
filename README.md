@@ -11,16 +11,16 @@
 <!-- Social Badges -->
 <p>
   <a href="https://github.com/AndrewMommers">
-    <img src="https://img.shields.io/badge/GitHub-0B1221?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-0B1221?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1221&color=00E5FF" alt="GitHub"/>
   </a>
   <a href="https://linkedin.com/in/andrewmommers">
-    <img src="https://img.shields.io/badge/LinkedIn-0B1221?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0B1221?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1221&color=00E5FF" alt="LinkedIn"/>
   </a>
   <a href="mailto:andrew.mommers@mommersco.com">
-    <img src="https://img.shields.io/badge/Email-0B1221?style=for-the-badge&logo=gmail&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-0B1221?style=for-the-badge&logo=gmail&logoColor=00E5FF&labelColor=0B1221&color=00E5FF" alt="Email"/>
   </a>
   <a href="https://mommersco.com">
-    <img src="https://img.shields.io/badge/Website-0B1221?style=for-the-badge&logo=google-chrome&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="Website"/>
+    <img src="https://img.shields.io/badge/Website-0B1221?style=for-the-badge&logo=google-chrome&logoColor=00E5FF&labelColor=0B1221&color=00E5FF" alt="Website"/>
   </a>
 </p>
 
@@ -58,8 +58,8 @@
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,nginx,apache,vscode,vim,figma,photoshop&theme=dark" alt="Tools"/>
 
 ### **Gaming & Specialized**
-<img src="https://img.shields.io/badge/Arma_3_Scripting-0B1221?style=for-the-badge&logo=steam&logoColor=00E5FF&labelColor=0B1221&color=39FF14" alt="Arma 3"/>
-<img src="https://img.shields.io/badge/SQF-0B1221?style=for-the-badge&logo=code&logoColor=00E5FF&labelColor=0B1221&color=39FF14" alt="SQF"/>
+<img src="https://img.shields.io/badge/Arma_3_Scripting-0B1221?style=for-the-badge&logo=steam&logoColor=00E5FF&labelColor=0B1221&color=00E5FF" alt="Arma 3"/>
+<img src="https://img.shields.io/badge/SQF-0B1221?style=for-the-badge&logo=code&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="SQF"/>
 <img src="https://img.shields.io/badge/Realism_Mods-0B1221?style=for-the-badge&logo=gamepad&logoColor=00E5FF&labelColor=0B1221&color=39FF14" alt="Realism Mods"/>
 
 </div>
@@ -70,14 +70,14 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AndrewMommers&show_icons=true&hide_border=true&count_private=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED&ring_color=39FF14"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AndrewMommers&show_icons=true&hide_border=true&count_private=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF&ring_color=39FF14"/>
 
-<img height="180em" src="https://github-readme-streak-stats.demolab.com/?user=AndrewMommers&hide_border=true&background=0B1221&stroke=00E5FF&ring=39FF14&fire=00E5FF&currStreakNum=E6F2FF&sideNums=E6F2FF&currStreakLabel=7C3AED&sideLabels=7C3AED&dates=E6F2FF"/>
+<img height="180em" src="https://github-readme-streak-stats.demolab.com/?user=AndrewMommers&hide_border=true&background=0B1221&stroke=00E5FF&ring=00E5FF&fire=39FF14&currStreakNum=E6F2FF&sideNums=E6F2FF&currStreakLabel=00E5FF&sideLabels=00E5FF&dates=E6F2FF"/>
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&layout=compact&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&layout=compact&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </div>
 
 ---
@@ -115,19 +115,19 @@
 <div align="center">
 
 <a href="https://github.com/Mommers-Co/Discord">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=Discord&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=Discord&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </a>
 
 <a href="https://github.com/Mommers-Co/FS25-Dashboard">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=FS25-Dashboard&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=FS25-Dashboard&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </a>
 
 <a href="https://github.com/GamingPanthers/A3-Realistic-Airborne">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=A3-Realistic-Airborne&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=A3-Realistic-Airborne&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </a>
 
 <a href="https://github.com/GamingPanthers/TakLife">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=TakLife&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=TakLife&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </a>
 
 </div>

@@ -96,20 +96,6 @@
 
 ---
 
-## 📈 **Advanced Metrics Dashboard**
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./metrics-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./metrics-light.svg">
-  <img src="./metrics-dark.svg" alt="Metrics Dashboard"/>
-</picture>
-
-</div>
-
----
-
 ## 🚀 **Featured Projects**
 
 <div align="center">
@@ -184,3 +170,19 @@ Whether you're interested in **cutting-edge cloud solutions**, **innovative busi
 <div align="center">
 <sub>⚡ Powered by passion, driven by innovation ⚡</sub>
 </div>
+
+---
+
+## 📈 **Advanced Metrics Dashboard**
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./metrics-light.svg">
+  <img src="./metrics-dark.svg" alt="Metrics Dashboard"/>
+</picture>
+
+</div>
+
+---

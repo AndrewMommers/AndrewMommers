@@ -1,12 +1,49 @@
-# Andrew Mommers
-I'm Andrew from Australia, and I do content on design and development. I really enjoy Volleyball, I also enjoy ui, ux, and design in general.
+<!-- Futuristic GitHub Profile README for AndrewMommers -->
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/github.svg' alt='github' height='40'>](https://github.com/AndrewMommers)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/AndrewMommers/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/realandrewmommers)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/andrewmommers/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/AndrewMommers)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/youtube.svg' alt='YouTube' height='40'>](https://www.youtube.com/channel/UCA29_HG-Awi0lYjZFh5d-0g)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@5.16.0/icons/icloud.svg' alt='website' height='40'>](https://andrewmommers.com/)  
+<h1 align="center">🌌 Hey, I’m Andrew Mommers</h1>
+<p align="center">
+  <em>Building the future of tech, one line of code at a time.</em>
+</p>
 
-## Currently Working On
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=Discord&theme=github_dark)](https://github.com/Mommers-Co/Discord)
+---
 
+## 👨‍💻 About Me
+- 🔭 Founder of **Mommers Co** — spanning IT Services, Logistics, and Waste Management.  
+- 🖥️ Running **Mommers IT** as a Managed Services Provider (MSP).  
+- 🎮 Developer & Modder for **Arma 3** (realism, advanced systems, and immersive gameplay).  
+- ☁️ Exploring **Cloud Hosting, Automation, and Next-Gen Web Tech**.  
+- 🌱 Always learning, always building.  
 
-## Github Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=AndrewMommers&show_icons=true&theme=github_dark)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&layout=compact&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+---
+
+## 🚀 Tech Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,nuxtjs,discord,appwrite,postgresql,html,css,git,github,docker" />
+</p>
+
+---
+
+## 🌐 Connect With Me
+<p align="center">
+  <a href="https://github.com/AndrewMommers"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" /></a>
+  <a href="https://www.linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" /></a>
+  <a href="mailto:andrew@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AndrewMommers&show_icons=true&theme=radical&hide_border=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AndrewMommers&theme=radical&hide_border=true" />
+</p>
+
+---
+
+## 🪐 Futuristic Touch
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="80%" />
+</p>
+<p align="center">
+  <em>"Code isn’t just syntax — it’s the architecture of tomorrow."</em>
+</p>

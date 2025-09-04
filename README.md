@@ -122,12 +122,12 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=FS25-Dashboard&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
 </a>
 
-<a href="https://github.com/Mommers-Co/web">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=web&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
-</a>
-
 <a href="https://github.com/GamingPanthers/A3-Realistic-Airborne">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=A3-Realistic-Airborne&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+</a>
+
+<a href="https://github.com/GamingPanthers/TakLife">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=TakLife&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
 </a>
 
 </div>

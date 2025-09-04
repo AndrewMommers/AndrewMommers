@@ -64,6 +64,7 @@
 
 </div>
 
+<!--
 ---
 
 ## 📊 **GitHub Analytics**
@@ -79,6 +80,7 @@
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndrewMommers&layout=compact&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=00E5FF"/>
 </div>
+-->
 
 ---
 
@@ -171,6 +173,7 @@ Whether you're interested in **cutting-edge cloud solutions**, **innovative busi
 <sub>⚡ Powered by passion, driven by innovation ⚡</sub>
 </div>
 
+<!--
 ---
 
 ## 📈 **Advanced Metrics Dashboard**
@@ -186,3 +189,4 @@ Whether you're interested in **cutting-edge cloud solutions**, **innovative busi
 </div>
 
 ---
+-->

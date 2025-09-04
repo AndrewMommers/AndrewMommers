@@ -49,10 +49,10 @@
 <div align="center">
 
 ### **Languages & Frameworks**
-<img src="https://skillicons.dev/icons?i=js,ts,html,css,vue,nuxt,react,nodejs,python,php,go,rust&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=js,ts,html,css,vue,nuxt,react,nodejs,python,php,go&theme=dark" alt="Languages"/>
 
 ### **Cloud & DevOps**
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,terraform,jenkins,github,git,linux&theme=dark" alt="Cloud"/>
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,github,git,linux&theme=dark" alt="Cloud"/>
 
 ### **Databases & Tools**
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,nginx,apache,vscode,vim,figma,photoshop&theme=dark" alt="Tools"/>

@@ -1,43 +1,162 @@
 name: Metrics
-on:
-  schedule: [{ cron: "0 */12 * * *" }]
-  workflow_dispatch:
-jobs:
-  metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          # Replace with your GH token (classic, read-only public_repo is fine)
-          token: ${{ secrets.METRICS_TOKEN }}
 
+on:
+  # Schedule daily updates
+  schedule:
+    - cron: "0 0 * * *"
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+  push: 
+    branches: 
+      - main
+      - master
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Options
           user: AndrewMommers
           template: classic
-          base: header, activity, community, repositories
-          config_timezone: "Australia/Sydney"
-
-          # Brand look
-          config_display: large
-          config_padding: 16, 24
-          config_animations: yes
-          plugin_achievements: yes
-
-          # Plugins (toggle to taste)
-          plugin_isocalendar: yes
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css
-          plugin_languages_limit: 8
-          plugin_languages_colors: github
+          base: header, activity, community, repositories, metadata
+          config_timezone: Australia/Melbourne
+          
+          # Features
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+          
           plugin_calendar: yes
           plugin_calendar_limit: 1
-
-          # Colors (match README palette)
-          color_background: "0B1221"
-          color_border: "7C3AED"
-          color_text: "E6F2FF"
-          color_main: "00E5FF"
-          color_primary: "39FF14"
-
-          # Output
-          filename: metrics.svg
+          
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
+          
+          plugin_gists: yes
+          
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
+          
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+          
+          plugin_projects: yes
+          plugin_projects_limit: 4
+          
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_discussions: 100
+          plugin_reactions_limit_discussions_comments: 100
+          plugin_reactions_limit_issues: 100
+          
+          plugin_repositories: yes
+          plugin_repositories_featured: AndrewMommers/mommersco-platform
+          
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
+          
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
+          
+          plugin_traffic: yes
+          
+          # Styling
+          config_display: large
+          config_animations: yes
+          config_base_indepth: yes
+          config_padding: 10%
+          
+          # Custom styling for Mommers Co brand
+          extras_css: |
+            * {
+              --color-calendar-graph-day-bg: #0b1221 !important;
+              --color-calendar-graph-day-border: transparent !important;
+              --color-calendar-graph-day-L1-bg: #1e3a5f !important;
+              --color-calendar-graph-day-L2-bg: #2d5aa0 !important;
+              --color-calendar-graph-day-L3-bg: #3b7dd8 !important;
+              --color-calendar-graph-day-L4-bg: #00e5ff !important;
+              --color-text-primary: #e6f2ff !important;
+              --color-text-secondary: #7c3aed !important;
+              --color-text-tertiary: #39ff14 !important;
+            }
+            
+            .field {
+              background: linear-gradient(135deg, #0b1221 0%, #1e3a5f 100%) !important;
+              border: 1px solid #00e5ff !important;
+              border-radius: 12px !important;
+            }
+            
+            h2 {
+              color: #00e5ff !important;
+              text-shadow: 0 0 10px #00e5ff40 !important;
+            }
+            
+            .chart-bars .entry .value {
+              color: #e6f2ff !important;
+            }
+            
+            .progress-bar {
+              background: linear-gradient(90deg, #7c3aed, #00e5ff, #39ff14) !important;
+            }
+            
+            .languages-details li {
+              border-color: #00e5ff !important;
+            }
+            
+            .activity {
+              background: #0b1221 !important;
+              border: 1px solid #7c3aed !important;
+              border-radius: 8px !important;
+            }
+            
+            .stargazers path {
+              stroke: #00e5ff !important;
+              fill: #00e5ff20 !important;
+            }

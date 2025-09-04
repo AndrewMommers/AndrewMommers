@@ -1,23 +1,77 @@
-name: Profile 3D Contributions
+name: GitHub-Profile-3D-Contrib
+
 on:
-  schedule: [{ cron: "0 */12 * * *" }]
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v4
+      
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
         with:
-          username: AndrewMommers
-          output: profile-3d-contrib
-          # Theme with brand hues (pick one to keep; animated looks great)
-          # Available: profile-green-animate / profile-night-green / profile-season-animate / etc.
-          # Files created in ./profile-3d-contrib/
-      - name: Commit 3D assets
+          setting-json: |
+            {
+              "type": "season",
+              "contributionView": "isometric",
+              "lightness": [
+                "0.3",
+                "0.45",
+                "0.6",
+                "0.8",
+                "1.0"
+              ],
+              "opacity": "0.8",
+              "backgroundColor": "#0b1221",
+              "foregroundColor": "#00e5ff",
+              "strongColor": "#39ff14",
+              "weakColor": "#7c3aed",
+              "radarColor": "#00e5ff",
+              "growingAnimation": "true",
+              "contribColors": [
+                "#0b1221",
+                "#1e3a5f",
+                "#2d5aa0",
+                "#3b7dd8",
+                "#00e5ff",
+                "#39ff14"
+              ],
+              "userColor": "#00e5ff",
+              "calendar": "true",
+              "calendarColor": "#e6f2ff",
+              "months": [
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff"
+              ],
+              "chartBackgroundColor": "#0b1221",
+              "scene": {
+                "cameraAngle": "isometric",
+                "lightColor": "#00e5ff",
+                "lightIntensity": "0.8"
+              }
+            }
+      
+      - name: Commit & Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib/*.svg
-          git commit -m "Update 3D contributions" || echo "No changes"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A .
+          git commit -m "Generated 3D contribution graph" || exit 0
           git push

@@ -16,7 +16,7 @@
   <a href="https://linkedin.com/in/andrewmommers">
     <img src="https://img.shields.io/badge/LinkedIn-0B1221?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="LinkedIn"/>
   </a>
-  <a href="mailto:andrew@mommersco.com">
+  <a href="mailto:andrew.mommers@mommersco.com">
     <img src="https://img.shields.io/badge/Email-0B1221?style=for-the-badge&logo=gmail&logoColor=00E5FF&labelColor=0B1221&color=7C3AED" alt="Email"/>
   </a>
   <a href="https://mommersco.com">
@@ -114,16 +114,16 @@
 
 <div align="center">
 
-<a href="https://github.com/AndrewMommers/mommersco-platform">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AndrewMommers&repo=mommersco-platform&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+<a href="https://github.com/Mommers-Co/Discord">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=Discord&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
 </a>
 
-<a href="https://github.com/AndrewMommers/arma3-realism-suite">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AndrewMommers&repo=arma3-realism-suite&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+<a href="https://github.com/GamingPanthers/A3-Realistic-Airborne">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GamingPanthers&repo=A3-Realistic-Airborne&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
 </a>
 
-<a href="https://github.com/AndrewMommers/cloud-ops-toolkit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AndrewMommers&repo=cloud-ops-toolkit&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
+<a href="https://github.com/Mommers-Co/FS25-Dashboard">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mommers-Co&repo=FS25-Dashboard&hide_border=true&bg_color=0B1221&title_color=00E5FF&text_color=E6F2FF&icon_color=7C3AED"/>
 </a>
 
 <a href="https://github.com/AndrewMommers/msp-automation">
@@ -168,7 +168,7 @@ const andrewMommers = {
 
 Whether you're interested in **cutting-edge cloud solutions**, **innovative business platforms**, or **immersive gaming experiences**, I'm always excited to connect with fellow innovators and creators.
 
-📧 **Reach out:** [andrew@mommersco.com](mailto:andrew@mommersco.com)  
+📧 **Reach out:** [andrew.mommers@mommersco.com](mailto:andrew.mommers@mommersco.com)  
 🌐 **Visit:** [mommersco.com](https://mommersco.com)  
 💼 **Connect:** [LinkedIn](https://linkedin.com/in/andrewmommers)
 

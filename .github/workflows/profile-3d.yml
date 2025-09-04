@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # Generate Dark Mode Version
+      - name: Generate 3D Contrib (Dark Mode)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -21,9 +23,10 @@ jobs:
             {
               "type": "season",
               "contributionView": "isometric",
+              "filename": "profile-3d-contrib/profile-season-animate-dark",
               "lightness": [
                 "0.3",
-                "0.45",
+                "0.45", 
                 "0.6",
                 "0.8",
                 "1.0"
@@ -67,11 +70,129 @@ jobs:
                 "lightIntensity": "0.8"
               }
             }
+
+      # Generate Light Mode Version
+      - name: Generate 3D Contrib (Light Mode)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          setting-json: |
+            {
+              "type": "season",
+              "contributionView": "isometric", 
+              "filename": "profile-3d-contrib/profile-season-animate-light",
+              "lightness": [
+                "0.4",
+                "0.6",
+                "0.7",
+                "0.85",
+                "1.0"
+              ],
+              "opacity": "0.9",
+              "backgroundColor": "#ffffff",
+              "foregroundColor": "#0066cc",
+              "strongColor": "#00e5ff",
+              "weakColor": "#7c3aed",
+              "radarColor": "#0066cc",
+              "growingAnimation": "true",
+              "contribColors": [
+                "#f6f8fa",
+                "#c6e48b",
+                "#7bc96f", 
+                "#239a3b",
+                "#196127",
+                "#0066cc"
+              ],
+              "userColor": "#0066cc",
+              "calendar": "true",
+              "calendarColor": "#24292f",
+              "months": [
+                "#24292f",
+                "#24292f",
+                "#24292f", 
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f",
+                "#24292f"
+              ],
+              "chartBackgroundColor": "#ffffff",
+              "scene": {
+                "cameraAngle": "isometric",
+                "lightColor": "#ffffff",
+                "lightIntensity": "1.0"
+              }
+            }
+
+      # Generate Default Version (Dark for backwards compatibility)
+      - name: Generate 3D Contrib (Default)
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        with:
+          setting-json: |
+            {
+              "type": "season",
+              "contributionView": "isometric",
+              "filename": "profile-3d-contrib/profile-season-animate",
+              "lightness": [
+                "0.3",
+                "0.45",
+                "0.6", 
+                "0.8",
+                "1.0"
+              ],
+              "opacity": "0.8",
+              "backgroundColor": "#0b1221",
+              "foregroundColor": "#00e5ff", 
+              "strongColor": "#39ff14",
+              "weakColor": "#7c3aed",
+              "radarColor": "#00e5ff",
+              "growingAnimation": "true",
+              "contribColors": [
+                "#0b1221",
+                "#1e3a5f",
+                "#2d5aa0",
+                "#3b7dd8", 
+                "#00e5ff",
+                "#39ff14"
+              ],
+              "userColor": "#00e5ff",
+              "calendar": "true",
+              "calendarColor": "#e6f2ff",
+              "months": [
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff",
+                "#e6f2ff"
+              ],
+              "chartBackgroundColor": "#0b1221",
+              "scene": {
+                "cameraAngle": "isometric",
+                "lightColor": "#00e5ff",
+                "lightIntensity": "0.8"
+              }
+            }
       
       - name: Commit & Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A .
-          git commit -m "Generated 3D contribution graph" || exit 0
+          git commit -m "Generated 3D contribution graphs (light & dark modes)" || exit 0
           git push

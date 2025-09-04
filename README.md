@@ -85,7 +85,13 @@
 ## 🌌 **3D Contribution Galaxy**
 
 <div align="center">
-<img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D Contribution Graph"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-season-animate-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate-light.svg">
+  <img src="./profile-3d-contrib/profile-season-animate-dark.svg" alt="3D Contribution Graph"/>
+</picture>
+
 </div>
 
 ---
@@ -93,7 +99,13 @@
 ## 📈 **Advanced Metrics Dashboard**
 
 <div align="center">
-<img src="./metrics.svg" alt="Metrics Dashboard"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./metrics-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./metrics-light.svg">
+  <img src="./metrics-dark.svg" alt="Metrics Dashboard"/>
+</picture>
+
 </div>
 
 ---

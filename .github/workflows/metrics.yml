@@ -462,35 +462,56 @@ jobs:
           config_base_indepth: yes
           config_padding: 10%
           
-          # Default Custom Styling (same as dark)
+          # Default Custom Styling (same as dark but more consistent)
           extras_css: |
-            * {
+            /* Global color variables */
+            :root {
               --color-calendar-graph-day-bg: #0b1221 !important;
-              --color-calendar-graph-day-border: transparent !important;
+              --color-calendar-graph-day-border: #00e5ff20 !important;
               --color-calendar-graph-day-L1-bg: #1e3a5f !important;
               --color-calendar-graph-day-L2-bg: #2d5aa0 !important;
               --color-calendar-graph-day-L3-bg: #3b7dd8 !important;
               --color-calendar-graph-day-L4-bg: #00e5ff !important;
-              --color-text-primary: #e6f2ff !important;
-              --color-text-secondary: #7c3aed !important;
-              --color-text-tertiary: #39ff14 !important;
             }
             
-            .field {
-              background: linear-gradient(135deg, #0b1221 0%, #1e3a5f 100%) !important;
-              border: 2px solid #00e5ff !important;
-              border-radius: 15px !important;
-              box-shadow: 0 0 20px #00e5ff30 !important;
+            /* Main background */
+            body, svg {
+              background: #0b1221 !important;
             }
             
-            h2 {
+            /* All text styling */
+            text, .metric, tspan {
+              fill: #e6f2ff !important;
+              font-family: 'Segoe UI', system-ui, sans-serif !important;
+            }
+            
+            /* Headers and titles */
+            .field h2, h2, .header {
               color: #00e5ff !important;
-              text-shadow: 0 0 10px #00e5ff40 !important;
-              font-weight: bold !important;
+              fill: #00e5ff !important;
+              text-shadow: 0 0 8px #00e5ff50 !important;
+              font-weight: 600 !important;
             }
             
+            /* Field containers */
+            .field {
+              background: linear-gradient(135deg, #0b1221 0%, #1a2332 100%) !important;
+              border: 1px solid #00e5ff !important;
+              border-radius: 12px !important;
+              box-shadow: 0 0 12px #00e5ff20 !important;
+            }
+            
+            /* Progress bars and charts */
             .progress-bar {
-              background: linear-gradient(90deg, #7c3aed 0%, #00e5ff 50%, #39ff14 100%) !important;
-              border-radius: 10px !important;
-              box-shadow: 0 0 10px #00e5ff50 !important;
+              background: linear-gradient(90deg, #7c3aed 0%, #00e5ff 70%, #39ff14 100%) !important;
+              border-radius: 6px !important;
+              box-shadow: 0 0 8px #00e5ff30 !important;
+            }
+            
+            /* Numbers and values highlighting */
+            .chart-bars .entry .value, .number, .metric-value {
+              fill: #39ff14 !important;
+              color: #39ff14 !important;
+              font-weight: 600 !important;
+              text-shadow: 0 0 5px #39ff1430 !important;
             }

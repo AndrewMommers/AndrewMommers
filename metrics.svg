@@ -623,7 +623,7 @@ text, .metric, tspan {
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path d="M10.896 2H8.75V.75a.75.75 0 00-1.5 0V2H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 2zM8.75 15.25a.75.75 0 01-1.5 0V14H5.104a.25.25 0 01-.177-.427l2.896-2.896a.25.25 0 01.354 0l2.896 2.896a.25.25 0 01-.177.427H8.75v1.25zm-6.5-6.5a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM6 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 016 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5zM12 8a.75.75 0 01-.75.75h-.5a.75.75 0 010-1.5h.5A.75.75 0 0112 8zm2.25.75a.75.75 0 000-1.5h-.5a.75.75 0 000 1.5h.5z"/>
                             </svg>
-                            Average per day at ~1.27
+                            Average per day at ~1.26
                         </div>
                     </section>
                 </div>
@@ -1594,6 +1594,11 @@ text, .metric, tspan {
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1802,6 +1807,7 @@ text, .metric, tspan {
                                     <rect class="day" x="0" y="34" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="49" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="0" y="64" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="79" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </g>
                         </svg>
@@ -1825,7 +1831,7 @@ text, .metric, tspan {
                                     </svg>
                                     <div class="name">
                                         <span>IsoBones/ADFRecut-Source</span>
-                                        <span>starred 19 days ago</span>
+                                        <span>starred 20 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Private repo for source models for the ADF Re-Cut Arma III Mod</div>
@@ -1866,7 +1872,7 @@ text, .metric, tspan {
                                     </svg>
                                     <div class="name">
                                         <span>IsoBones/ADFRC</span>
-                                        <span>starred 26 days ago</span>
+                                        <span>starred 27 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Representing the Australian Defence Force in Arma 3</div>
@@ -1919,7 +1925,7 @@ text, .metric, tspan {
                                     </svg>
                                     <div class="name">
                                         <span>A3-TasmanDynamics/TasDyn-AI</span>
-                                        <span>starred 29 days ago</span>
+                                        <span>starred Apr 30 2026</span>
                                     </div>
                                 </div>
                                 <div class="field description">Tasman Dynamics AI System (Discord, Website)</div>
@@ -2022,13 +2028,8 @@ text, .metric, tspan {
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                16
-                                <div class="bottom">May</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 17
+                                <div class="bottom">May</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -2089,6 +2090,11 @@ text, .metric, tspan {
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 29
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                30
                             </div>
                         </div>
                     </section>
@@ -2098,13 +2104,8 @@ text, .metric, tspan {
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                16
-                                <div class="bottom">May</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 17
+                                <div class="bottom">May</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -2165,6 +2166,11 @@ text, .metric, tspan {
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 29
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                30
                             </div>
                         </div>
                     </section>
@@ -2254,7 +2260,7 @@ text, .metric, tspan {
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 29 May 2026, 13:42:58 (timezone Australia/Melbourne) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 30 May 2026, 13:31:49 (timezone Australia/Melbourne) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
